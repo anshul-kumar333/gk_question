@@ -1,174 +1,154 @@
 let questions = [
   {
-    question: "What is the correct way to define an attribute in an HTML tag?",
-    options: ["<tag attribute='value'>", "<tag attribute=value>", "<tag=attribute:value>3", "<tag>attribute='value'4"],
-    correctAnswer: "<tag attribute='value'>"
+    question: "What does the acronym 'BIOS' stand for in computing?",
+    options: ["a) Basic Integrated Operating System", "b) Basic Input/Output System", "c) Binary Input/Output System", "d) Basic Internal Operating System"],
+    correctAnswer: "b) Basic Input/Output System"
   },
   {
-    question: "Which tag is used to underline text in HTML?",
-    options: ["<i>", "<u>", "<b>", "<underline>"],
-    correctAnswer: "<u>"
+    question: "Which of the following is a programming language primarily used for web development?",
+    options: ["a) C#", "b) JavaScript", "c) SQL", "d) Assembly"],
+    correctAnswer: "b) JavaScript"
   },
   {
-    question: "What is the purpose of the <hr> tag?",
-    options: ["To break a line", "To create a horizontal rule", "To highlight text", "To italicize text"],
-    correctAnswer: "To create a horizontal rule"
+    question: "What is the primary function of the CPU in a computer?",
+    options: ["a) To store data", "b) To perform calculations and execute instructions", "c) To connect to the internet", "d) To display graphics"],
+    correctAnswer: "b) To perform calculations and execute instructions"
   },
   {
-    question: "Which tag is used for displaying an image in HTML?",
-    options: ["<img>", "<image>", "<src>", "<pic>"],
-    correctAnswer: "<img>"
+    question: "Which device is used to input graphical data into a computer?",
+    options: ["a) Keyboard", "b) Scanner", "c) Mouse", "d) Printer"],
+    correctAnswer: "c) Mouse"
   },
   {
-    question: "How do you create an ordered list in HTML?",
-    options: ["<ul>", "<ol>", "<li>", "<dl>"],
-    correctAnswer: "<ol>"
+    question: "What is the purpose of an operating system?",
+    options: ["a) To perform calculations", "b) To manage computer hardware and software resources", "c) To create documents", "d) To browse the internet"],
+    correctAnswer: "b) To manage computer hardware and software resources"
   },
   {
-  question: "The <b> tag is used to bold text.",
-  options: ["True", "False"],
-  correctAnswer: "True"
+    question: "Which of the following is an example of an open-source operating system?",
+    options: ["a) Windows", "b) macOS", "c) Linux", "d) iOS"],
+    correctAnswer: "c) Linux"
   },
   {
-    question: "You can use <br> to create a line break.",
-    options: ["True", "False"],
-    correctAnswer: "True"
+    question: "What is the primary function of a firewall?",
+    options: ["a) To manage hardware resources", "b) To protect a network from unauthorized access", "c) To enhance graphics performance", "d) To run applications"],
+    correctAnswer: "b) To protect a network from unauthorized access"
   },
   {
-    question: "The <i> tag is used for inline images.",
-    options: ["True", "False"],
-    correctAnswer: "False"
+    question: "What is cloud computing primarily used for?",
+    options: ["a) Storing data on local devices", "b) Running applications on remote servers accessed via the internet", "c) Creating physical backups", "d) Enhancing network speed"],
+    correctAnswer: "b) Running applications on remote servers accessed via the internet"
   },
   {
-    question: "<ul> is used for ordered lists.",
-    options: ["True", "False"],
-    correctAnswer: "False"
+    question: "Which of the following components is responsible for storing data permanently in a computer?",
+    options: ["a) RAM", "b) CPU", "c) Hard Drive", "d) Motherboard"],
+    correctAnswer: "c) Hard Drive"
   },
   {
-    question: "<marquee> is used to create scrolling text.",
-    options: ["True", "False"],
-    correctAnswer: "True"
+    question: "What is the term for malicious software that disguises itself as legitimate software?",
+    options: ["a) Adware", "b) Spyware", "c) Trojan Horse", "d) Ransomware"],
+    correctAnswer: "c) Trojan Horse"
   },
   {
-    question: "The <_______> tag is used to insert a line break in HTML",
-    options: ["<br>", "<hr>"],
-    correctAnswer: "<br>"
-},
-
-{
-  question: "The attribute used to set the URL in an <a> tag is ________.",
-  options: ["href", "target"],
-  correctAnswer: "href"
-},
-
-{
-  question: "The <_______> tag is used to display images in HTML.",
-  options: ["<img>", "<pic>"],
-  correctAnswer: "<img>"
-},
-
-{
-  question: "<_______> are used to merge table rows.",
-  options: ["rowspan", "colspan"],
-  correctAnswer: "rowspan"
-},
-
-{
-  question: "You use <_______> to create an input field for a form.",
-  options: ["<input>", "<textarea>"],
-  correctAnswer: "<input>"
-},
-
-{
-  question: "What is the correct way to change the color of text in CSS?",
-  options: ["text-color: red;", "color: red;", "font-color: red;", "style-color: red;"],
-  correctAnswer: "color: red;"
-},
-
-{
-  question: "Which property is used to change the background color?",
-  options: ["bgcolor", "background", "background-color", "color"],
-  correctAnswer: "background-color"
-},
-
-{
-  question: "How do you make text bold using CSS?",
-  options: ["bgcolorfont-weight: bold;", "text-style: bold;", "text-bold: true;", "font-style: bold;"],
-  correctAnswer: "font-weight: bold;"
-},
-
-{
-  question: "What property is used to change the font size in CSS?",
-  options: ["font-weight", "font-size", "text-size", "size"],
-  correctAnswer: "font-size"
-},
-
-{
-  question: "How do you add space between the content and the border of an element?",
-  options: ["margin", "spacing", "padding", "border-spacing"],
-  correctAnswer: "padding"
-},
-
-{
-  question: "CSS stands for Cascading Style Sheets.",
-  options: ["True", "False"],
-  correctAnswer: "True"
-},
-
-{
-  question: "The margin property is used to add space inside an element.",
-  options: ["True", "False"],
-  correctAnswer: "False"
-},
-
-{
-  question: "You can set an image as a background in CSS.",
-  options: ["True", "False"],
-  correctAnswer: "True"
-},
-
-{
-  question: "The display property controls the visibility of elements.",
-  options: ["True", "False"],
-  correctAnswer: "False"
-},
-
-{
-  question: "The float property is used to align elements left or right.",
-  options: ["True", "False"],
-  correctAnswer: "True"
-},
-
-{
-  question: "The __________ property is used to make the text italic in CSS.",
-  options: ["font-style", "text-decoration"],
-  correctAnswer: "font-style"
-},
-
-{
-  question: "To create rounded corners, the __________ property is used.",
-  options: ["border-style", "border-radius"],
-  correctAnswer: "border-radius"
-},
-
-{
-  question: "You use the __________ property to change the width of an element.",
-  options: ["width", "size"],
-  correctAnswer: "width"
-},
-
-{
-  question: "The __________ property is used to change the height of an element.",
-  options: ["Height", "top"],
-  correctAnswer: "Height"
-},
-
-{
-  question: "To center text inside an element, use __________.",
-  options: ["text-align", "align-center"],
-  correctAnswer: "text-align"
-}
-  
+    question: "Which organ in the human body is primarily responsible for detoxifying chemicals?",
+    options: ["a) Heart", "b) Kidneys", "c) Liver", "d) Lungs"],
+    correctAnswer: "c) Liver"
+  },
+  {
+    question: "What is the largest ocean on Earth?",
+    options: ["a) Atlantic Ocean", "b) Indian Ocean", "c) Arctic Ocean", "d) Pacific Ocean"],
+    correctAnswer: "d) Pacific Ocean"
+  },
+  {
+    question: "Who invented the telephone?",
+    options: ["a) Alexander Graham Bell", "b) Thomas Edison", "c) Nikola Tesla", "d) Guglielmo Marconi"],
+    correctAnswer: "a) Alexander Graham Bell"
+  },
+  {
+    question: "What is the capital city of Japan?",
+    options: ["a) Kyoto", "b) Tokyo", "c) Osaka", "d) Hiroshima"],
+    correctAnswer: "b) Tokyo"
+  },
+  {
+    question: "Which element has the chemical symbol 'O'?",
+    options: ["a) Gold", "b) Oxygen", "c) Osmium", "d) Oganesson"],
+    correctAnswer: "b) Oxygen"
+  },
+  {
+    question: "Which historical event is celebrated on July 4th in the United States?",
+    options: ["a) Thanksgiving", "b) Independence Day", "c) Memorial Day", "d) Labor Day"],
+    correctAnswer: "b) Independence Day"
+  },
+  {
+    question: "In which year did the first man land on the moon?",
+    options: ["a) 1965", "b) 1969", "c) 1971", "d) 1975"],
+    correctAnswer: "b) 1969"
+  },
+  {
+    question: "What is the largest continent on Earth?",
+    options: ["a) Africa", "b) Asia", "c) Europe", "d) Antarctica"],
+    correctAnswer: "b) Asia"
+  },
+  {
+    question: "Which famous scientist developed the theory of relativity?",
+    options: ["a) Isaac Newton", "b) Albert Einstein", "c) Niels Bohr", "d) Galileo Galilei"],
+    correctAnswer: "b) Albert Einstein"
+  },
+  {
+    question: "What is the currency of Japan?",
+    options: ["a) Yen", "b) Won", "c) Yuan", "d) Ringgit"],
+    correctAnswer: "a) Yen"
+  },
+  {
+    question: "Which country hosted the G20 summit in 2024?",
+    options: ["a) India", "b) China", "c) Brazil", "d) Saudi Arabia"],
+    correctAnswer: "c) Brazil"
+  },
+  {
+    question: "Which Indian state has been declared the first 'Har Ghar Jal' certified state in 2024?",
+    options: ["a) Punjab", "b) Gujarat", "c) Haryana", "d) Goa"],
+    correctAnswer: "d) Goa"
+  },
+  {
+    question: "Who is the current Chief Justice of India (as of 2024)?",
+    options: ["a) N.V. Ramana", "b) D.Y. Chandrachud", "c) U.U. Lalit", "d) Sharad Arvind Bobde"],
+    correctAnswer: "b) D.Y. Chandrachud"
+  },
+  {
+    question: "What is the largest planet in our solar system?",
+    options: ["a) Earth", "b) Mars", "c) Saturn", "d) Jupiter"],
+    correctAnswer: "d) Jupiter"
+  },
+  {
+    question: "In which year did World War II end?",
+    options: ["a) 1939", "b) 1941", "c) 1945", "d) 1950"],
+    correctAnswer: "c) 1945"
+  },
+  {
+    question: "Which company developed the popular software suite 'Microsoft Office'?",
+    options: ["a) Google", "b) Apple", "c) Microsoft", "d) IBM"],
+    correctAnswer: "c) Microsoft"
+  },
+  {
+    question: "What does 'RAM' stand for in computer technology?",
+    options: ["a) Random Access Memory", "b) Read Any Memory", "c) Run Access Memory", "d) Remote Access Module"],
+    correctAnswer: "a) Random Access Memory"
+  },
+  {
+    question: "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+    options: ["a) Rabindranath Tagore", "b) Bankim Chandra Chattopadhyay", "c) Mahatma Gandhi", "d) Sarojini Naidu"],
+    correctAnswer: "a) Rabindranath Tagore"
+  },
+  {
+    question: "Which of these programming languages is primarily used for developing web pages?",
+    options: ["a) Python", "b) JavaScript", "c) C++", "d) R"],
+    correctAnswer: "b) JavaScript"
+  },
+  {
+    question: "The term 'gigabyte' refers to which unit of digital data?",
+    options: ["a) 1,024 bytes", "b) 1,024 kilobytes", "c) 1,024 megabytes", "d) 1,024 terabytes"],
+    correctAnswer: "c) 1,024 megabytes"
+  }
 ];
 
 let currentQuestionIndex = 0;
