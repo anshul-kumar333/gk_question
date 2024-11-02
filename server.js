@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://gk-question:921182@cluster0.3eckf.mongodb.net/poll_game');
+mongoose.connect('mongodb+srv://poll_game:921182@cluster0.3eckf.mongodb.net/gk-question');
 
 // User schema and model
 const userSchema = new mongoose.Schema({
